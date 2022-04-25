@@ -1,3 +1,65 @@
 body {
   background: papayawhip;
 }
+.a {background-color: aqua;
+  height: 100px;
+  width: 500px;
+ text-align: center;
+ font-size: 5em;;
+ margin:20px;
+ 
+}
+.b{background-color: limegreen;
+  height: 350px;
+  width: 500px;
+  text-align:center;
+  font-size: 5em;
+  justify-content: center;
+  margin:20px;
+}
+.c,
+.d,
+.e
+{ background-color: orangered;
+  flex-direction: row;  
+  height: 110px;
+    width: 110px;
+   text-align: center;
+   font-size: 4em;
+   margin:10px;
+}
+.container-2{
+  display: flex;
+  flex-direction: row;
+  gap: 75px;
+
+}
+  .f{
+ background-color: fuchsia;
+ height: 100px;
+ width: 500px;
+ text-align: center;
+ font-size: 5em;;
+ margin:20px;
+ position: absolute;
+ bottom: auto;
+}
+/* for mobile: */
+@media (min-width:600px) {
+  .a{
+    width:100%;
+  }
+}
+.container{ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container-2{
+  width:66%
+}
+.f {
+  width:32%;
+  height:auto
+;
+}

@@ -1,3 +1,23 @@
 body {
   background: blanchedalmond;
 }
+.a {background-color: aqua;
+  height: 100px;
+  width: 500px;
+ text-align: center;
+ font-size: 5em;;
+}
+.b{background-color: limegreen;
+  height: 500px;
+  width: 500px;
+  text-align:center;
+  font-size: 5em;
+  justify-content: center;
+
+}
+.c{ background-color: orangered;
+    height: 100px;
+    width: 500px;
+   text-align: center;
+   font-size: 5em;
+   }
